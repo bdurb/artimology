@@ -1,3 +1,15 @@
+# Artimology
+
+This React app is possible due to
+##The Cleveland Museum of Art Open access API
+
+
+more instructions to follow
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
