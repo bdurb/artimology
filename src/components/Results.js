@@ -6,11 +6,19 @@ class Results extends Component {
     super(props)
     this.state = {reslts:''}
   }
+
+  componentDidMount() {
+    axios.get(`https://openaccess-api.clevelandart.org/api/artworks/?q=${this.props.searchTerm}`)
+    .then(res => {
+      console.log(res.data)
+      this.setState({results: res.data})
+    })
+  }
   
   render() { 
     return (
       <div>
-        <h1>another placeholder</h1>
+        <h1>placeholder</h1>
       </div>
     );
   }

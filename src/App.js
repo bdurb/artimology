@@ -19,7 +19,7 @@ class App extends Component {
       <div className="App">
         <h1>Search The Art</h1>
           <h2>What do you want to search for?</h2>
-          <input onChange={this.state.searchTerm}></input>
+          <input onChange={this.updateSearchTerm}></input>
         <Results searchTerm={this.state.searchTerm}/>
       </div>
     );
